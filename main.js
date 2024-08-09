@@ -22,6 +22,7 @@ const mesh = new THREE.Mesh(geometry, material);
 scene.add(mesh);
 camera.position.z = 2;
 
+
 const wireMaterial = new THREE.MeshBasicMaterial({
   color: 0xffffff,
   wireframe: true,
